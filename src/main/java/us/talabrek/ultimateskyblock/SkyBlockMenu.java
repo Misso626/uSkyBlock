@@ -595,7 +595,7 @@ public class SkyBlockMenu {
         List<String> lores = new ArrayList<>();
         ItemStack menuItem = new ItemStack(Material.GRASS, 1);
         ItemMeta meta4 = menuItem.getItemMeta();
-        meta4.setDisplayName(tr("\u00a7a\u00a7lStart an Island"));
+        meta4.setDisplayName(tr("\u00a7a\u00a7lZacni na ostrove"));
         addLore(lores, tr("\u00a7fStart your skyblock journey\n\u00a7fby starting your own island.\n\u00a7fComplete challenges to earn\n\u00a7fitems and skybucks to help\n\u00a7fexpand your skyblock. You can\n\u00a7finvite others to join in\n\u00a7fbuilding your island empire!\n\u00a7e\u00a7lClick here to start!"));
         meta4.setLore(lores);
         menuItem.setItemMeta(meta4);
@@ -623,7 +623,7 @@ public class SkyBlockMenu {
         List<String> lores = new ArrayList<>();
         ItemStack menuItem = new ItemStack(Material.WOOD_DOOR, 1);
         ItemMeta meta4 = menuItem.getItemMeta();
-        meta4.setDisplayName(tr("\u00a7a\u00a7lReturn Home"));
+        meta4.setDisplayName(tr("\u00a7a\u00a7lDomov"));
         addLore(lores, tr("\u00a7fReturn to your island's home\n\u00a7fpoint. You can change your home\n\u00a7fpoint to any location on your\n\u00a7fisland using \u00a7b/island sethome\n\u00a7e\u00a7lClick here to return home."));
         meta4.setLore(lores);
         menuItem.setItemMeta(meta4);
